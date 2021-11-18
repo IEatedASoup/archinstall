@@ -8,7 +8,7 @@ pacstrap /mnt base linux linux-firmware
 genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 locale-gen
-figlen enter hostname now
+figlet enter hostname now
 vim /etc/hostname
 mkinitcpio -P
 figlet set root password
