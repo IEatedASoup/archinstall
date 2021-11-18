@@ -1,3 +1,4 @@
+#!/bin/bash
 timedatectl set-ntp true
 pacman -S figlet vim
 figlet set up your partitions
