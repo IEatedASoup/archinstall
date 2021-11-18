@@ -1,3 +1,4 @@
+arch-chroot
 mkdir /boot/efi
 mount /dev/sda1 /boot/efi
 grub-mkconfig -o /boot/grub/grub.cfg
