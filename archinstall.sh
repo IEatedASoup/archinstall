@@ -12,7 +12,8 @@ locale-gen
 figlet enter hostname now
 vim /etc/hostname
 mkinitcpio -P
-figlet set root password with command passwd
+figlet set root password
+passwd
 figlet installing grub
 pacman -S grub efibootmgr
 mkdir /boot/efi
